@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_New ShadTrill shader
+  m_Name: Shader Graphs_New ShadTrill shader 1
   m_Shader: {fileID: -6465566751694194690, guid: 02eefd03d0842744c8f83a625f01bfa8,
     type: 3}
   m_Parent: {fileID: 0}
@@ -17,7 +17,7 @@ Material:
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3001
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
   m_LockedProperties: 
@@ -44,12 +44,12 @@ Material:
     m_Floats:
     - _Dissolved: 35
     - _QueueControl: 0
-    - _QueueOffset: 1
+    - _QueueOffset: 0
     m_Colors:
-    - _Color1: {r: 1, g: 0.03798599, b: 0, a: 1}
-    - _Dissolvedspeed: {r: -0.24, g: 0, b: 0, a: 0}
-    - _color2: {r: 1, g: 0.19215687, b: 0, a: 1}
-    - _maintexturespeed: {r: 0.43, g: -0.26, b: 0, a: 0}
+    - _Color1: {r: 0, g: 0.0015792847, b: 0.9056604, a: 1}
+    - _Dissolvedspeed: {r: -0.11, g: 0, b: 0, a: 0}
+    - _color2: {r: 0, g: 1, b: 0.979579, a: 1}
+    - _maintexturespeed: {r: 0.5, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &952247428753527773
 MonoBehaviour:
